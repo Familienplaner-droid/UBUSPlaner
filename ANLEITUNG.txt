@@ -1,0 +1,65 @@
+UBUS-Logbuch – eigenständige Web-App
+=====================================
+
+INHALT DES ORDNERS
+  index.html            die App
+  manifest.webmanifest  Name und Symbol für den Startbildschirm
+  sw.js                 sorgt dafür, dass die App auch offline startet
+  icon-*.png            App-Symbole
+
+Alle Dateien gehören zusammen in denselben Ordner.
+
+
+1. HOCHLADEN (einmalig, durch eine Person)
+------------------------------------------
+Der Ordner muss auf einen Webspace mit https://-Adresse. Möglichkeiten:
+  - Webspace der Schule oder des Trägers (am besten mit der IT absprechen)
+  - kostenlose Dienste für statische Seiten, z. B. Netlify oder GitHub Pages:
+    Ordner hochladen, man bekommt eine https-Adresse
+
+Wichtig: Auf dem Server liegen nur diese Dateien. Die Einträge der Kolleginnen
+werden NICHT übertragen. Sie bleiben immer auf dem jeweiligen Handy.
+
+Direkt aus einer Datei auf dem Handy geöffnet funktioniert die App nicht
+zuverlässig. Sie braucht die https-Adresse.
+
+
+2. AUF DEM HANDY EINRICHTEN (jede Kollegin)
+-------------------------------------------
+iPhone (Safari):   Adresse öffnen → Teilen-Symbol → „Zum Home-Bildschirm“
+Android (Chrome):  Adresse öffnen → Menü ⋮ → „App installieren“
+                   bzw. „Zum Startbildschirm hinzufügen“
+
+Danach immer über das Symbol auf dem Startbildschirm starten.
+Beim iPhone ist das besonders wichtig: Im normalen Safari-Tab kann iOS die
+Daten löschen, wenn die Seite länger als etwa eine Woche nicht benutzt wird.
+Als App auf dem Startbildschirm passiert das nicht.
+
+
+3. SICHERUNG
+------------
+Einstellungen → „Sicherung speichern“ legt eine .json-Datei ab.
+Diese Datei z. B. in die eigene Cloud legen oder per Mail an sich selbst
+schicken. Die App erinnert auf der Startseite, wenn die letzte Sicherung
+länger als 14 Tage her ist.
+
+Neues Handy: App einrichten → Einstellungen → „Sicherung laden“.
+
+Achtung: Die Sicherungsdatei enthält alle Einträge im Klartext, also auch
+Namen von Schülerinnen, Schülern und Lehrkräften. Entsprechend sorgsam
+aufbewahren.
+
+
+4. UPDATES
+----------
+Neue Fassung von index.html auf den Webspace laden (Dateiname gleich lassen).
+Die Handys holen sie beim nächsten Start mit Internetverbindung automatisch.
+Die gespeicherten Einträge bleiben dabei erhalten.
+
+
+5. DATENSCHUTZ
+--------------
+- Keine Anmeldung, keine Übertragung von Einträgen, keine externen Schriften
+  oder Dienste.
+- Ob Namen von Schülerinnen und Schülern auf privaten Handys gespeichert
+  werden dürfen, regeln Schule und Träger. Bitte vor dem Einsatz klären.
