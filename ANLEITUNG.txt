@@ -5,7 +5,7 @@ INHALT DES ORDNERS
   index.html            die App
   manifest.webmanifest  Name und Symbol für den Startbildschirm
   sw.js                 sorgt dafür, dass die App auch offline startet
-  icon-*.png            App-Symbole
+  icon-*.png, favicon-32.png, apple-touch-icon.png   App-Symbole
 
 Alle Dateien gehören zusammen in denselben Ordner.
 
