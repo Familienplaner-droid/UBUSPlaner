@@ -30,6 +30,14 @@ iPhone (Safari):   Adresse öffnen → Teilen-Symbol → „Zum Home-Bildschirm�
 Android (Chrome):  Adresse öffnen → Menü ⋮ → „App installieren“
                    bzw. „Zum Startbildschirm hinzufügen“
 
+Wichtig: Die Adresse direkt in Safari bzw. Chrome eintippen. Nicht über einen
+Link aus Mail, WhatsApp o. Ä. öffnen, denn dort öffnet sich nur ein
+Vorschaufenster, aus dem die Installation oft nicht klappt.
+
+Falls Android „App konnte nicht geöffnet werden“ meldet: im Menü ⋮ stattdessen
+„Zum Startbildschirm hinzufügen“ → „Verknüpfung erstellen“ wählen. Das
+funktioniert genauso, die App öffnet sich dann in Chrome.
+
 Danach immer über das Symbol auf dem Startbildschirm starten.
 Beim iPhone ist das besonders wichtig: Im normalen Safari-Tab kann iOS die
 Daten löschen, wenn die Seite länger als etwa eine Woche nicht benutzt wird.
